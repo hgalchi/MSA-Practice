@@ -18,4 +18,8 @@ public class SecondController {
         return secondService.getOrder(orderId);
     }
 
+    @GetMapping("/order/details/{orderId}")
+    public Order getOrderDetails(@PathVariable String orderId) {
+        return secondService.getOrderDetails(orderId);
+    }
 }
