@@ -2,7 +2,7 @@ spring:
   application:
     name: second-service
 server:
-  port: 19091
+  port: 19094
 
 eureka:
   client:
